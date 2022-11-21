@@ -5,40 +5,49 @@ function printValue(value){
 
 // 1.0 DEFINE VARIABLES
 //TODO: ADD fixed variable
-
+const pi =3.142
+printValue(pi)
 
 //TODO: ADD redeclarable variable
-
+var score=90
+score =95
+printValue(score)
 
 //TODO: ADD re-assignable but not redeclarable variable
+let age=17
+printValue(age)//17
+//var age =29
 
 
 // 2.0 DIFFERENT DATA TYPES
 //TODO: Create a fixed variable with a number value
-
+const y=44
 
 //TODO: Create a redeclarable variable with a boolean value
-
+var isEligible=false
 
 //TODO: Create a re-assignable variable with a string value
-
-
+let isEligibletoday='mine'
 
 // 3.0 STRING OPERATIONS
 //TODO: Concatenate string (+)
-
-
+const message='im in phase 1.'
+const time="12:00PM"
+const full=message +time
+printValue(full)
 //TODO: Interpolate string (`${}`)
-
+const other =`Hello, ${message}and the time is ${time}`
+printValue(other)
 
 //TODO: Convert to uppercase
-
+const otherVariable=other.toUpperCase()
+printValue(otherVariable)
 
 //TODO: Convert to lowercase
-
+printValue(other.toLowerCase())
 
 //TODO: Index a specific character
-
+printValue("ABCDEFGHIJKLMNOPQRSTUVWXYZ".charAt(9))
 
 //TODO: PRACTICE ON YOUR OWN (Check mozilla documentation)
 
